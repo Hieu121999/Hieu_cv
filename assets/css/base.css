@@ -1,0 +1,89 @@
+:root {
+    --primary-color-rgba: rgb(255, 47, 20);
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.title--general {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.8rem;
+    color: var(--text-color);
+    padding: 14px 0;
+    font-weight: 500;
+    text-shadow: -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
+}
+
+.title--yourself {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--text-color);
+    padding: 14px 0;
+    font-weight: 400;
+}
+
+.skills__sts-bar {
+    font-size: 2.2rem;
+    color: var(--text-color);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn {
+    border: 2px solid #2ecc71;
+    height: 40px;
+    width: 100px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--primary-color-rgba);
+    box-shadow: 2px 4px 4px #888888;
+    -webkit-box-shadow: 2px 4px 4px #888888;
+    -moz-box-shadow: 2px 4px 4px #888888;
+    font-size: 1.6rem;
+    height: 40px;
+    width: 110px;
+}
+
+.btn-primary:hover {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--primary-color-rgba);
+    box-shadow: 2px 4px 4px #888888;
+    -webkit-box-shadow: 2px 4px 4px #888888;
+    -moz-box-shadow: 2px 4px 4px #888888;
+    font-size: 1.6rem;
+    height: 30px;
+    width: 110px;
+}
+
+.contact-me__from--title {
+    font-size: 2rem;
+    color: var(--white-color);
+    position: relative;
+}
+
+.contact-me__from--icon {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 0.8rem;
+    top: -10px;
+    position: absolute;
+    right: -12px;
+    top: 8px;
+}
